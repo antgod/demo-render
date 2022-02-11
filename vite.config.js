@@ -17,6 +17,11 @@ export default defineConfig({
       ],
     }),
   ],
+  build: {
+    rollupOptions: {
+      animation: 'animation.html'
+    }
+  },
   css: {
     preprocessorOptions: {
       less: {
