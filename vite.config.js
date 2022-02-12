@@ -1,6 +1,7 @@
+import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import reactRefresh from '@vitejs/plugin-react-refresh';
-import { viteCommonjs } from '@originjs/vite-plugin-commonjs'
+import { viteCommonjs } from '@originjs/vite-plugin-commonjs';
 import vitePluginImp from 'vite-plugin-imp';
 
 // https://vitejs.dev/config/
@@ -19,8 +20,14 @@ export default defineConfig({
   ],
   build: {
     rollupOptions: {
-      animation: 'animation.html'
-    }
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        motion: resolve(__dirname, 'motion.html'),
+        fabric: resolve(__dirname, 'fabric.html'),
+        three: resolve(__dirname, 'three.html'),
+        babylon: resolve(__dirname, 'babylon.html'),
+      },
+    },
   },
   css: {
     preprocessorOptions: {

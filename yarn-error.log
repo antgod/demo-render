@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add polotno/polotno-app --save
+  /usr/local/bin/node /usr/local/bin/yarn add babylonjs --save
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/lihongji/emsdk:/Users/lihongji/emsdk/upstream/emscripten:/Users/lihongji/emsdk/node/14.18.2_64bit/bin
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/go/bin:/Library/Apple/usr/bin
 
 Yarn version: 
   1.12.3
@@ -39,17 +39,23 @@ npm manifest:
       "@alife/sail": "^1.0.2-beta.21",
       "@alife/sail-util": "^1.0.0-beta.13",
       "@emotion/react": "^11.7.1",
+      "@tweenjs/tween.js": "^18.6.4",
       "autoprefixer": "^10.4.2",
+      "d3": "^7.3.0",
+      "fabric": "^5.0.0",
+      "framer-motion": "^6.2.6",
       "less": "^4.1.1",
       "less-loader": "^10.0.1",
       "less-vars-to-js": "^1.3.0",
       "omi": "^6.23.0",
+      "polotno": "^0.39.2",
       "postcss": "^8.4.6",
       "react": "^17.0.0",
       "react-dom": "^17.0.0",
       "styled-components": "^5.3.3",
       "styled-jsx": "^5.0.0",
       "tailwindcss": "^3.0.19",
+      "three": "^0.137.5",
       "vite-plugin-css-modules": "^0.0.1",
       "vite-plugin-imp": "^2.0.7"
     },
